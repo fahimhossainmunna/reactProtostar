@@ -24,7 +24,8 @@ const Testymoni = () => {
         </div>
         <Container>
           <Flex>
-            <div className="card">
+            <div className="card sm:w-full">
+               {/* card one  */}
               <div className="absolute mt-20 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur p-6 sm:px-15 shadow-[0_20px_60px_-15px_rgb(2,6,23,.25)]">
                 <div className="icon flex text-amber-500 py-4 text-3xl">
                   <MdOutlineStarBorderPurple500 />
@@ -57,6 +58,8 @@ const Testymoni = () => {
                   </div>
                 </div>
               </div>
+
+              {/* card two  */}
               <div className="ml-[47%] absolute mt-20 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur p-6 sm:px-15 shadow-[0_20px_60px_-15px_rgb(2,6,23,.25)]">
                 <div className="icon flex text-amber-500 py-4 text-3xl">
                   <MdOutlineStarBorderPurple500 />
